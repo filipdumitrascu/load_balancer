@@ -62,12 +62,3 @@ Gets all key-value pairs associated from the server.
 
 ### init_load_balancer()
 Initializes the memory for a new load balancer and its fields and returns a pointer to it.
-
-
-#### Feedback:
-
-The idea of consistent hashing was interesting to implement from my point
-of view because you don't think of these special cases at first that an array
-is not circular. However it was a very well explained topic that could be done
-in a reasonable time (I did it in a week) considering that the functions to be
-applied on a hashtable were studied in the lab.
